@@ -11,7 +11,7 @@ def home(request):
 
 class PostListView(ListView):
     model = Post
-    template_name = 'blog/home.html' # by default: <app>/<model>_<viewtype>.html -> blog/post_list.html
+    template_name = 'blog/home.html' # by default <app>/<model>_<viewtype>.html
     context_object_name = 'posts'
 
 def about(request):
